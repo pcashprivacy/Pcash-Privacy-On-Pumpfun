@@ -1,0 +1,3 @@
+snarkjs groth16 setup build/private_transfer.r1cs powersOfTau28_hez_final_16.ptau build/private_transfer_0000.zkey
+snarkjs zkey contribute build/private_transfer_0000.zkey build/private_transfer_final.zkey --name="First contribution" -v
+snarkjs zkey export verificationkey build/private_transfer_final.zkey build/verification_key.json
