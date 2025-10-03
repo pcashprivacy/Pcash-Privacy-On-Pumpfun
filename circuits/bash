@@ -1,0 +1,2 @@
+mkdir circuits && cd circuits
+circom private_transfer.circom --r1cs --wasm --sym -o build/
